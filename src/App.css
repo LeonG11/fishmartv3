@@ -131,6 +131,15 @@ legend {
   height: 12vh;
   padding: 0 4rem 0 4rem;
 }
+.footer {
+  background-color: #1c3751c7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  padding: 0 4rem 0 4rem;
+}
 
 .logo {
   display: flex;
@@ -223,4 +232,63 @@ legend {
   padding-right: 40px;
 }
 
-.
+.fishfish {
+  background-color: #051b26;
+  height: 76vh;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+.fish__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fish__head {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height, or 150% */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.fish__container > p {
+  margin-left: 112px;
+  width: 540px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+  /* or 130% */
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.fishfish__img {
+  width: 538px;
+  height: 600px;
+  background: url("./Components/img/Frame 4.png") no-repeat center center;
+  background-size: cover;
+}
+
+.telephone {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  /* Light grey */
+
+  color: rgba(210, 204, 204, 0.81);
+}
