@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ReactComponent as Arrow } from "./img/arrow next.svg";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
   const [Radius, setRadius] = useState(50);
+  const [showText, setshowText] = useState(false);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setshowText(true);
+    }, 100);
+  }, []);
 
   const Enter = () => {
     let counter = 0;
@@ -29,7 +35,10 @@ export default function Homepage() {
   };
   return (
     <div className="Homepage">
-      <div className="titleHome">
+      <div
+        className="titleHome"
+        style={{ opacity: showText ? 1 : 0, transition: "opacity 1s" }}
+      >
         <p>Свежие продукты</p>
         <p>На любой вкус</p>
         <div

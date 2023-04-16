@@ -5,7 +5,7 @@ import Dot from "./Dot";
 
 export default function Footer() {
   return (
-    <header className="footer" style={{ backgroudColor: "#1C3751C7" }}>
+    <footer className="footer" style={{ backgroudColor: "#1C3751C7" }}>
       <LogoSvg />
       <div className="middle">
         <LinkHeader path="/fishfish" text="FISH FISH" />
@@ -17,6 +17,6 @@ export default function Footer() {
       <a className="last telephone" href="tel:8800000000">
         +7 (800) 000-00-00
       </a>
-    </header>
+    </footer>
   );
 }
