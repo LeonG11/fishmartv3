@@ -3,6 +3,13 @@ import Cards from "./Cards";
 
 export default function MenuFish() {
   const [TypeItem, setTypeItem] = useState("all");
+
+  const dataSet = [
+    {
+
+
+    }
+  ]
   return (
     <div className="menu">
       <p>Ассортимент</p>
@@ -27,6 +34,7 @@ export default function MenuFish() {
         </button>
       </div>
       <div className="cards__flex">
+
         <Cards
           img="/fish-1.png"
           place="Архангельск"
